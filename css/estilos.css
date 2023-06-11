@@ -1,0 +1,96 @@
+body {
+  background: #FBE2E5;
+  line-height: 1.6;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Montserrat', sans-serif; }
+
+header .navbar {
+  background-color: #9CADA4; }
+
+header nav ul a {
+  color: #050000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px;
+  margin: 10px 0px; }
+
+header nav ul li {
+  padding: 7px;
+  margin: 1px; }
+  header nav ul li:hover {
+    background-color: #FABEA7;
+    color: #767C77;
+    border-radius: 10px;
+    padding: 7px; }
+
+main h1 {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  color: black;
+  font-size: 1.5rem; }
+
+main h2 {
+  text-align: center;
+  margin: 20px; }
+
+main p:not(.card-text) {
+  text-indent: 40px;
+  padding: 15px;
+  margin: 0px 10px;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.4; }
+
+main .row {
+  --bs-gutter-x: none; }
+
+main .card img {
+  border-radius: 50%;
+  padding: 10px; }
+  main .card img:hover {
+    transform: scale(1.1, 1); }
+
+main .carousel-caption {
+  text-shadow: black 2px 2px 2px; }
+  main .carousel-caption h1 {
+    color: white; }
+  @media (max-width: 768px) {
+    main .carousel-caption h1 {
+      font-size: 24px; }
+    main .carousel-caption p {
+      font-size: 16px; } }
+
+main .accordion-item {
+  background-color: #FABEA7; }
+
+main .accordion-button {
+  background-color: #FABEA7; }
+
+main iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 45vw; }
+
+main form {
+  margin: 60px; }
+  main form .boton {
+    background-color: #767C77;
+    padding: 10px;
+    border-radius: 20%; }
+
+main .nombreform {
+  background-color: #FABEA7; }
+
+main .noticia {
+  background-color: #FABEA7; }
+
+footer {
+  background-color: #767C77;
+  padding: 20px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

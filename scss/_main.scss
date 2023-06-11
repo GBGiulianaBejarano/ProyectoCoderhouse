@@ -1,0 +1,86 @@
+main{
+  
+    h1{
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 1.5rem;
+    }
+    h2{
+        text-align: center;
+        margin: 20px;
+    }
+    
+    p:not(.card-text){
+        text-indent: 40px;
+        padding: 15px;
+        margin: 0px 10px;
+        text-align: justify;
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+
+    .row {
+       --bs-gutter-x: none;
+    }
+
+    .card img{
+        border-radius: 50%;
+        padding: 10px;
+        &:hover{
+            transform: scale(1.1,1);
+        }
+    }
+    
+    .carousel-caption{
+        text-shadow: black 2px 2px 2px;
+        h1{
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+  
+            p {
+                font-size: 16px; 
+            }
+            }
+         }
+    
+    .accordion-item{
+        background-color: #FABEA7;
+    }
+    .accordion-button{
+        background-color: #FABEA7 ;
+    }
+
+    iframe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 45vw;
+    }
+    
+    form{
+        margin: 60px;
+
+        .boton{
+            background-color: $texto;
+            padding: 10px;
+            border-radius: 20%;
+        }
+       
+    }
+
+    .nombreform{
+        background-color: #FABEA7;
+    }
+
+    .noticia{
+        background-color: #FABEA7;
+    }
+
+}
