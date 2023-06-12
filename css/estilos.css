@@ -86,7 +86,12 @@ main .nombreform {
 main .noticia {
   background-color: #FABEA7; }
 
-main .hilos img {
+main .hilos {
+  background-image: url(../multi/concepto-red-hilo-rojo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
   width: 100vw; }
 
 footer {
