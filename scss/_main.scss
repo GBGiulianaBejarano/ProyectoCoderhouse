@@ -6,13 +6,29 @@ main{
         text-align: center;
         color: rgb(0, 0, 0);
         font-size: 1.5rem;
+        font-weight: bold;
     }
     h2{
         text-align: center;
-        margin: 20px;
+        margin: 20px;  
+
+        .card-title{
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
     }
-    
-    p:not(.card-text){
+
+    .bton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    p{
         text-indent: 40px;
         padding: 15px;
         margin: 0px 10px;
@@ -21,40 +37,65 @@ main{
         line-height: 1.4;
     }
 
+    .cajagral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sinjust{
+        text-align: center;
+        text-indent: 0px;
+        margin: 20px;
+        padding: 0px;
+    }
+
+    .caja{
+        padding: 0px;
+
+    }
+
+    .card-text{
+        text-indent: 0px;
+        text-align: center;
+    }
+
     .row {
        --bs-gutter-x: none;
     }
-
-    .card img{
-        border-radius: 50%;
-        padding: 10px;
-        &:hover{
-            transform: scale(1.1,1);
-        }
-    }
     
     .carousel-caption{
-        text-shadow: black 2px 2px 2px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+    
         h1{
+            color: white;
+        }
+
+        p{
+            text-indent: 0px;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
             color: white;
         }
 
         @media (max-width: 768px) {
             h1 {
-                font-size: 24px;
+                font-size: 15px;
             }
   
             p {
-                font-size: 16px; 
+                font-size: 14px; 
             }
             }
-         }
-    
+        }
+
     .accordion-item{
-        background-color: #FABEA7;
+        background-color: $coloracord;
     }
     .accordion-button{
-        background-color: #FABEA7 ;
+        background-color: $coloracord ;
     }
 
     iframe{
@@ -62,8 +103,22 @@ main{
         justify-content: center;
         align-items: center;
         max-width: 45vw;
+
+        .animalinkedin{
+            max-width: none;
+            margin-top:10px ;
+        }
+        
     }
-    
+
+    .center-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+      
+
     form{
         margin: 60px;
 
@@ -76,11 +131,11 @@ main{
     }
 
     .nombreform{
-        background-color: #FABEA7;
+        background-color: $coloracord;
     }
 
     .noticia{
-        background-color: #FABEA7;
+        background-color: $coloracord;
     }
 
     .hilos{

@@ -5,20 +5,20 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 header .navbar {
-  background-color: #9CADA4; }
+  background-color: #f5ffaa; }
 
 header nav ul a {
   color: #050000;
   text-decoration: none;
   font-size: 1.1rem;
-  padding: 10px;
+  padding: 5px;
   margin: 10px 0px; }
 
 header nav ul li {
   padding: 7px;
   margin: 1px; }
   header nav ul li:hover {
-    background-color: #FABEA7;
+    background-color: #f7c2ad;
     color: #767C77;
     border-radius: 10px;
     padding: 7px; }
@@ -28,13 +28,25 @@ main h1 {
   margin: 10px;
   text-align: center;
   color: black;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  font-weight: bold; }
 
 main h2 {
   text-align: center;
   margin: 20px; }
+  main h2 .card-title {
+    text-align: center;
+    margin: 0px;
+    padding: 0px; }
 
-main p:not(.card-text) {
+main .bton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-items: center; }
+
+main p {
   text-indent: 40px;
   padding: 15px;
   margin: 0px 10px;
@@ -42,36 +54,64 @@ main p:not(.card-text) {
   font-size: 1.2rem;
   line-height: 1.4; }
 
+main .cajagral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+main .sinjust {
+  text-align: center;
+  text-indent: 0px;
+  margin: 20px;
+  padding: 0px; }
+
+main .caja {
+  padding: 0px; }
+
+main .card-text {
+  text-indent: 0px;
+  text-align: center; }
+
 main .row {
   --bs-gutter-x: none; }
 
-main .card img {
-  border-radius: 50%;
-  padding: 10px; }
-  main .card img:hover {
-    transform: scale(1.1, 1); }
-
 main .carousel-caption {
-  text-shadow: black 2px 2px 2px; }
+  text-shadow: 2px 2px 0px black; }
   main .carousel-caption h1 {
+    color: white; }
+  main .carousel-caption p {
+    text-indent: 0px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
     color: white; }
   @media (max-width: 768px) {
     main .carousel-caption h1 {
-      font-size: 24px; }
+      font-size: 15px; }
     main .carousel-caption p {
-      font-size: 16px; } }
+      font-size: 14px; } }
 
 main .accordion-item {
-  background-color: #FABEA7; }
+  background-color: #f7c2ad; }
 
 main .accordion-button {
-  background-color: #FABEA7; }
+  background-color: #f7c2ad; }
 
 main iframe {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 45vw; }
+  main iframe .animalinkedin {
+    max-width: none;
+    margin-top: 10px; }
+
+main .center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%; }
 
 main form {
   margin: 60px; }
@@ -81,10 +121,10 @@ main form {
     border-radius: 20%; }
 
 main .nombreform {
-  background-color: #FABEA7; }
+  background-color: #f7c2ad; }
 
 main .noticia {
-  background-color: #FABEA7; }
+  background-color: #f7c2ad; }
 
 main .hilos {
   background-image: url(../multi/concepto-red-hilo-rojo.jpg);
@@ -95,8 +135,8 @@ main .hilos {
   width: 100vw; }
 
 footer {
-  background-color: #767C77;
-  padding: 20px; }
+  background-color: #a6ada6;
+  padding: 10px; }
 
 * {
   margin: 0;
