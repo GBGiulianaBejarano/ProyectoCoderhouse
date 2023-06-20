@@ -15,7 +15,7 @@ header nav ul a {
   margin: 10px 0px; }
 
 header nav ul li {
-  padding: 7px;
+  padding: 7px 0px;
   margin: 1px; }
   header nav ul li:hover {
     background-color: #f7c2ad;
@@ -25,7 +25,7 @@ header nav ul li {
 
 main h1 {
   padding: 10px;
-  margin: 10px;
+  margin: 10px 0px;
   text-align: center;
   color: black;
   font-size: 1.5rem;
@@ -104,8 +104,15 @@ main iframe {
   align-items: center;
   max-width: 45vw; }
   main iframe .animalinkedin {
-    max-width: none;
+    max-width: 100%;
     margin-top: 10px; }
+
+main .centerlk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
 
 main .center-content {
   display: flex;
@@ -114,7 +121,7 @@ main .center-content {
   height: 100%; }
 
 main form {
-  margin: 60px; }
+  margin: 0px; }
   main form .boton {
     background-color: #767C77;
     padding: 10px;
@@ -126,13 +133,40 @@ main .nombreform {
 main .noticia {
   background-color: #f7c2ad; }
 
+main .novideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 30px; }
+  main .novideo iframe {
+    box-shadow: 5px 5px 3px #f7c2ad; }
+
 main .hilos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-image: url(../multi/concepto-red-hilo-rojo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 170px;
-  width: 100vw; }
+  width: 100%;
+  height: 200px; }
+  main .hilos p {
+    font-weight: bolder;
+    animation: nv 1s linear infinite;
+    padding: 0px 30px; }
+
+@keyframes nv {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.02); }
+  100% {
+    transform: scale(1); } }
 
 footer {
   background-color: #a6ada6;
